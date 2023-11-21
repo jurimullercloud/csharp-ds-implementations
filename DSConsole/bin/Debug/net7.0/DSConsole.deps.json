@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DSConsole/1.0.0": {
+        "dependencies": {
+          "Trees": "1.0.0"
+        },
+        "runtime": {
+          "DSConsole.dll": {}
+        }
+      },
+      "Contracts/1.0.0": {
+        "runtime": {
+          "Contracts.dll": {}
+        }
+      },
+      "Trees/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Trees.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trees/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
